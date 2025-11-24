@@ -1,5 +1,6 @@
 [project]
 name = "typing-schema"
+license = "MIT"
 version = "0.1.0"
 description = "Convert Python types and typing annotations into a simple schema representation."
 readme = "README.md"
@@ -12,3 +13,6 @@ dev = [
     "pydantic>=2.12.4",
     "pytest>=9.0.1",
 ]
+
+[project.urls]
+source = "https://github.com/kasancode/typing-schema"
