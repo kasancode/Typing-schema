@@ -21,7 +21,7 @@ Basic example using type annotations:
 
 ### Convert a typing annotation
 ```python
-from schema_builder import typing_to_schema, function_to_schema
+from typing_schema import typing_to_schema, function_to_schema
 from typing import Annotated, Union, Literal
 
 class Record(TypedDict):
