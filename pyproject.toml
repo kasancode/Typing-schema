@@ -1,0 +1,14 @@
+[project]
+name = "typing-schema"
+version = "0.1.0"
+description = "Convert Python types and typing annotations into a simple schema representation."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "jsonschema>=4.25.1",
+    "pydantic>=2.12.4",
+    "pytest>=9.0.1",
+]
