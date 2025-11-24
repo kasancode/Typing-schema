@@ -1,7 +1,7 @@
 [project]
 name = "typing-schema"
 license = "MIT"
-version = "0.1.0"
+version = "0.1.1"
 description = "Convert Python types and typing annotations into a simple schema representation."
 readme = "README.md"
 requires-python = ">=3.12"
